@@ -35,3 +35,5 @@ services:
       - redis
     env_file:
       - ./.env
+
+        

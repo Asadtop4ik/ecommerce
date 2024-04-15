@@ -43,3 +43,4 @@ class OrderSerializer(serializers.ModelSerializer):
     def send_confirmation_email(self, order):
         # Here you would send an email. For this example, we'll just print
         print(f"Sent confirmation email for Order {order.id}")
+

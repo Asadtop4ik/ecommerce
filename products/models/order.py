@@ -10,6 +10,7 @@ phone_regex = RegexValidator(
     message="Phone number must be in the format: '+998xxxxxxxxx'."
 )
 
+
 class Order(models.Model):
     PENDING = 'Pending'
     PROCESSING = 'Processing'
@@ -54,3 +55,5 @@ class Order(models.Model):
 
     def __str__(self):
         return f"Order({self.product.name} by {self.customer.username})"
+
+
