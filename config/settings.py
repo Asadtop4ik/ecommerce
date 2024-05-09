@@ -177,3 +177,4 @@ STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY')
 STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY')
 SMS_KEY = os.environ.get('SMS_KEY')
 CSRF_TRUSTED_ORIGINS = ["https://*", "http://*"]
+
